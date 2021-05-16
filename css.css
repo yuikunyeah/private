@@ -1,0 +1,16 @@
+.main{
+  float: center;
+  box-shadow: 2px 2px 4px;
+  background-color: #fff;
+  margin: 0% 15%;
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: #008080;
+}
+.main ul{
+display: block;
+}
+body{
+  background-color: #c0c0c0;
+}
