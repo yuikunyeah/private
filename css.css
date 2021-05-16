@@ -14,3 +14,7 @@ display: block;
 body{
   background-color: #c0c0c0;
 }
+h2{
+border-bottom: 3px;
+border-color: #000000;
+}
