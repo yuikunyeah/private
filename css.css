@@ -2,11 +2,12 @@
   float: center;
   box-shadow: 2px 2px 4px;
   background-color: #fff;
-  margin: 0% 15%;
+  margin: 0% 5%;
   border: solid;
   border-radius: 20px;
   border-width: 5px;
   border-color: #008080;
+  padding: 5%;
 }
 .main ul{
 display: block;
