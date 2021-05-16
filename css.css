@@ -13,11 +13,11 @@
 display: block;
 list-style: none;  
 }
-main ul li{
+.main ul li{
   border-bottom: solid 1px #aaaaaa;
   display: block;
 }
-main ul li a{
+.main ul li a{
   transition-property: border,background-color;
   transition-duration: 0.3s;
   text-decoration: none;
@@ -25,7 +25,7 @@ main ul li a{
   color: #202020;
   display: block;
 }
-main ul li a:hover{
+.main ul li a:hover{
   border-left: solid 10px #40803b;
   background-color: #ffffff;
  display: block;
