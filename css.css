@@ -11,6 +11,24 @@
 }
 .main ul{
 display: block;
+list-style: none;  
+}
+body ul li{
+  border-bottom: solid 1px #aaaaaa;
+  display: block;
+}
+body ul li a{
+  transition-property: border,background-color;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  padding: 5px;
+  color: #202020;
+  display: block;
+}
+body ul li a:hover{
+  border-left: solid 10px #40803b;
+  background-color: #ffffff;
+ display: block;
 }
 body{
   background-color: #c0c0c0;
