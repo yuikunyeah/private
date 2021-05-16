@@ -10,11 +10,10 @@
   padding: 5%;
 }
 .main ul{
-display: block;
 list-style: none;  
 }
 .main ul li{
-  border-bottom: solid 1px #aaaaaa;
+  border-bottom: solid 10px #aaaaaa;
   display: block;
 }
 .main ul li a{
