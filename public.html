@@ -20,6 +20,9 @@
       <br><textarea id="textarea" placeholder="拡張子は自分で変えてね" rows="7"></textarea><br>
       <a href='javascript:download()' id="edit-btn">ダウンロード</a><input type="reset">初期化</reset>
       </form>
+    <h2>input要素テスター</h2>
+    とりあえず色々
+    
        </div>
       <script>
         function ok(){
@@ -39,7 +42,7 @@
         // ダウンロード可能なa要素を作成する
         let link = document.createElement('a');
         link.href = url;
-        link.download = 'ダウンロード時のファイル名(例えば、sample.txt)';
+        link.download = 'code().text';
         // 要素の追加
         document.body.appendChild(link);
 
