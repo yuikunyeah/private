@@ -16,14 +16,14 @@
     <h2>makecode</h2>
     ただ書いた文を出力させるだけ
     <form>
-    <input type="text" placeholder="codeの名前（ファイル名ではない）"><input type="button" value="決定" onclick="ok();">
-      <textarea id="load" placeholder="拡張子は自分で変えてね"></textarea>
-      <input type="button" value="download" id="DLlink" background-color="blue" color="#fff" height="20" width="outo">
+    <input type="text" placeholder="codeの名前（ファイル名ではない）"><br><input type="button" value="決定" onclick="ok();">
+      <br><textarea id="load" placeholder="拡張子は自分で変えてね" rows="7"></textarea><br>
+      <a href="" id="DLlink">ダウンロード</a>
       </form>
        </div>
       <script>
         function ok(){
-        areat("それは良かったですね")
+        alert("それは良かったですね")
         }
         
         document.querySelector('#DLlink').onclick = function() {
