@@ -8,18 +8,36 @@
   <body>
     <div class="main">
     <br><br>
-      ただいま試用試験中
  <h2>画像拡張子を変換(svg png jpeg jpg gif)</h2>
-      変換します。
-      <input type="file" name="ファイルを選択" accept="image/svg, image/png, image/jpeg, image/jpg, image/gif">
+      変換します。ただいま試用試験中
+     <form> <input type="file" name="ファイルを選択" accept="image/svg, image/png, image/jpeg, image/jpg, image/gif">
       <input type="submit" value="保存" oncrick="Down();">
-      </div>
-    <script>
-      function Down(){
+   </form>
+    <h2>makecode</h2>
+    ただ書いた文を出力させるだけ
+    <form>
+    <input type="text" placeholder="codeの名前（ファイル名ではない）"><input type="button" value="決定" onclick="ok();">
+      <textarea id="load" placeholder="拡張子は自分で変えてね"></textarea>
+      <input type="button" value="download" id="DLlink" background-color="blue" color="#fff" height="20" width="outo">
+      </form>
+       </div>
+      <script>
+        function ok(){
+        areat("それは良かったですね")
+        }
+        
+        document.querySelector('#DLlink').onclick = function() {
+    var text = document.querySelector('#txtarea').value;
+    this.href = 'data:text/plain;charset=utf-8,'
+        + encodeURIComponent(text);
+      
+          function Down(){
 const a = document.createElement('a');
 a.href = 'data:text/plain,' + encodeURIComponent('img gif\n');
 a.download = 'img.gif';
       }
-      </body>
+      </script>
+      <!--ヘッダー用!-->
+  </body>
 </html>
  
