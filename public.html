@@ -20,11 +20,15 @@
       <br><textarea id="textarea" placeholder="拡張子は自分で変えてね" rows="7" cols="60"></textarea><br>
       <a href='javascript:download()' id="edit-btn">ダウンロード</a><input type="reset">初期化</reset>
       </form>
-    <h2>input要素テスター</h2>
-    とりあえず色々
+    <h2>ダイアログテスター</h2>
+    とりあえず色々 js仕様
+    <input type="button" value="aleat形式" onclick="alert();">
     
        </div>
       <script>
+        function alert(){
+        aleat('よく見るダイアログ');
+        }
         function ok(){
         alert('それは良かったですね');
         }
@@ -50,7 +54,7 @@
         link.click();
 
         // 「link」は不要な要素になるので、link要素を削除
-        link.parentNode.removeChild(link)
+        link.parentNode.removeChild(link);
       }
         //以上が引用(qiita)
       
