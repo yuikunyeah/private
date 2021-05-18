@@ -24,6 +24,7 @@
     とりあえず色々 js仕様
     <input type="button" value="alert形式" onclick="data1();">
         <input type="button" value="confirm形式" onclick="data2();">
+     <input type="button" value="prompt形式" onclick="data3();">
        </div>
       <script>
         function data1(){
@@ -31,6 +32,12 @@
         }
         function data2(){
         confirm("aleatと何が違うでしょーか");
+        }
+        function data3(){
+         var value = prompt("これで全部です。わかりましたか？わかりましたら、はいと入力をお願いします。");
+         if(value == "はい"){
+         alert('okです');
+         } 
         }
         function ok(){
         alert('それは良かったですね');
