@@ -16,7 +16,9 @@
       </div>
     <script>
       function Down(){
-  download(name="untitledfile.gif");
+const a = document.createElement('a');
+a.href = 'data:text/plain,' + encodeURIComponent('img gif\n');
+a.download = 'img.gif';
       }
       </body>
 </html>
