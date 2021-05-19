@@ -54,6 +54,7 @@ background-color: #b0c4de;
 top: 0px;
 box-shadow: 2px 2px 4px;
   display: block;
+  width:100%;
 }
 .header ul{
 list-style: none;
@@ -61,6 +62,7 @@ list-style: none;
 .header ul li{
 float: left;
  padding: 10px 0px;
+  display: block;
 }
 .header form{
 float: left;
