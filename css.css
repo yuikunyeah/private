@@ -49,5 +49,19 @@ border-bottom: solid 3px #4169e1;/* 線 */
 }
 .header{
 list-style: none;
-position
+position: fixed;
+background-color: #b0c4de;
+top: 0px;
+box-shadow: 2px 2px 4px;
+  display: block;
+}
+.header ul{
+list-style: none;
+}
+.header ul li{
+float: left;
+ padding: 10px 0px;
+}
+.header form{
+float: left;
 }
