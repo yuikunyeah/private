@@ -63,8 +63,11 @@ list-style: none;
 }
 .header ul li{
 float: left;
- padding: 25px;
+ padding: 　10px;
   display: block;
-display:block;
+color: #000000;
+}
+.header ul li a{
+text-decoration: none;
 }
 
