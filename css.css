@@ -70,4 +70,7 @@ text-decoration: none;
   color: #000000;
    padding: 　10px;
 }
+.head ul li a:hover{
+background-color: #00008b;
+}
 
