@@ -63,6 +63,7 @@ list-style: none;
 float: left;
  padding: 10px 0px;
   display: block;
+display:flex;
 }
 .header form{
 float: left;
