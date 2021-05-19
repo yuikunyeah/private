@@ -16,7 +16,7 @@ list-style: none;
   border-bottom: solid 10px #aaaaaa;
   display: block;
 }
-.main ul li a{
+.main ul li{
   transition-property: border,background-color;
   transition-duration: 0.3s;
   text-decoration: none;
@@ -24,7 +24,7 @@ list-style: none;
   color: #202020;
   display: block;
 }
-.main ul li a:hover{
+.main ul li:hover{
   border-left: solid 10px #40803b;
   background-color: #ffffff;
  display: block;
@@ -46,4 +46,8 @@ padding-top: .5em;
 padding-bottom: .5em;
 margin-bottom: 2em;
 border-bottom: solid 3px #4169e1;/* 線 */
+}
+.header{
+list-style: none;
+position
 }
