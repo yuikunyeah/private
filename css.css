@@ -65,9 +65,9 @@ list-style: none;
 float: left;
  padding: 　10px;
   display: block;
-color: #000000;
 }
 .header ul li a{
 text-decoration: none;
+  color: #000000;
 }
 
