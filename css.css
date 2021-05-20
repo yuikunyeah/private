@@ -72,6 +72,7 @@ text-decoration: none;
    padding: 10px;
   background-color: #b0c4de;　
   margin: 0px 10px 0px 0px;
+	top: 0px;
 }
 .header ul li a:hover{
 background-color: #00008b;
