@@ -74,5 +74,6 @@ text-decoration: none;
 }
 .header ul li a:hover{
 background-color: #00008b;
+  color: #fff;
 }
 
