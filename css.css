@@ -70,7 +70,8 @@ float: left;
 text-decoration: none;
   color: #000000;
    border: 　10px;
-  background-color: #b0c4de;
+  background-color: #b0c4de;　
+  margin-right: 10px;
 }
 .header ul li a:hover{
 background-color: #00008b;
