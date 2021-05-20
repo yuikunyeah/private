@@ -64,12 +64,12 @@ list-style: none;
 .header ul li{
 float: left;
   display: block;
-  border: 10px;
+  padding: 10px;
 }
 .header ul li a{
 text-decoration: none;
   color: #000000;
-   border: 　10px;
+   padding: 　10px;
   background-color: #b0c4de;　
   margin-right: 10px;
 }
