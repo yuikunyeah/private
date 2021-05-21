@@ -1,12 +1,5 @@
 
-search.onclick = function () { 
-  location.href = 'search.html?word=' + encodeURI(tags.value);
-};
-var tags = [
-  ['プロフィール2','profile'],
-  ['初代プロフィール','homepage/profile'],
-  ['パスワードページ','page']
-];
+
 
 window.onload = function () { 
   var result = '';
