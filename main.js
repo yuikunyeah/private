@@ -1,4 +1,23 @@
 
+search.onclick = function () { 
+  location.href = 'search.html?word=' + encodeURI(tags.value);
+};
+var tags = [
+  ['プロフィール2','profile'],
+  ['初代プロフィール','homepage/profile'],
+  ['パスワードページ','page']
+];
+
+window.onload = function () { 
+  var result = '';
+  var value = decodeURI(new URLSearchParams(window.location.search).get('word'));
+  for(i=0;i<tags.length;i++){
+    if(tags[i][0].indexOf(value)!=-1){
+      result += '<a href=' + tags[i][1] + '>' + tags[i][0] + '</a> ';
+    }
+  }
+  document.getElementById('result').innerHTML = result;
+};
 function data1(){
          alert('よく見るダイアログ');
         }
