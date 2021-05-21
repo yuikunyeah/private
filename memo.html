@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <textarea rows="30" cols="40" priceholder="メモ" id="textarea></textarea>
+    <input type="button" value="コピー" id="button">
+<script>
+                                                document.getElementById('button').onclick = () => {
+  var text = document.getElementById('textarea').value;
+  navigator.clipboard.writeText(text).then(e => {
+    alert('コピーできました');
+  });
+};
+                                                </script>
+                                                </body>
+                                               </html>
+                                                
