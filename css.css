@@ -77,6 +77,10 @@ text-decoration: none;
 background-color: #00008b;
   color: #fff;
 }
+.main ul li a{
+text-decoration: none;
+	color: #000000;
+}
 .cp_iptxt {
 	position: relative;
 	width: 80%;
