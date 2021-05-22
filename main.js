@@ -1,5 +1,5 @@
-dunction math1(){
-  str answer = const text = document.getElementById('1').value;
+function math1(){
+  str answer = document.getElementById('1').value;
 if(answer==2){
 alert('正解です。');
 }else{
