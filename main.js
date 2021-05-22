@@ -1,4 +1,4 @@
-math1(){
+dunction math1(){
   str answer = const text = document.getElementById('1').value;
 if(answer==2){
 alert('正解です。');
