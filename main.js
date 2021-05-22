@@ -1,4 +1,10 @@
-
+math1(){
+if(('1')==2){
+alert('正解です。');
+}else{
+alert('不正解です');
+}
+}
 
 
 window.onload = function () { 
