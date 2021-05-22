@@ -1,5 +1,6 @@
 math1(){
-if(('1')==2){
+  str answer = const text = document.getElementById('1').value;
+if(answer==2){
 alert('正解です。');
 }else{
 alert('不正解です');
