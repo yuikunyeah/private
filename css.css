@@ -48,39 +48,31 @@ margin-bottom: 2em;
 border-bottom: solid 3px #4169e1;/* 線 */
 }
 .header{
-list-style: none;
-position: fixed;
-background-color: #b0c4de;
-top: 0px;
-box-shadow: 0px 2px;
-  display: block;
-  width:100%;
-  height: 50px;
-  float: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #ff00ff;
+    box-shadow: 2px 2px 4px #ccc;
 }
 .header ul{
-list-style: none;
+    list-style: none;
 }
 .header ul li{
-float: left;
-  display: block;
-  height: 50px;
+    padding: 1;
 }
 .header ul li a{
-text-decoration: none;
-  color: #000000;
-   height: 50px;
-  background-color: #b0c4de;　
-  margin: 0px; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff00ff;
+    padding: 14px;
+    clear: left;
+    float: top;
 }
 .header ul li a:hover{
-background-color: #00008b;
-  color: #fff;
-}
-.main ul li a{
-text-decoration: none;
-	color: #000000;
-}
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff44ff;
+    padding: 14px;
 .cp_iptxt {
 	position: relative;
 	width: 80%;
