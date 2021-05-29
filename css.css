@@ -59,6 +59,7 @@ border-bottom: solid 3px #4169e1;/* 線 */
 }
 .header ul li{
     padding: 1;
+	float: left;
 }
 .header ul li a{
     text-decoration: none;
