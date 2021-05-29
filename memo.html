@@ -3,8 +3,8 @@
     <textarea rows="3" cols="50" priceholder="メモ" id="textarea"> </textarea>
     <input type="button" value="コピー" id="button">
     ついでに数学問題を一問<br>
-   1+23√25/2345-7?<br>
-    <input type="text" id="text1" placeholder="回答"><input type="button" value="回答" onclick="answer1();">
+   1+23√25=?<br>
+    <input type="text" id="text1" placeholder="回答"><input type="button" value="回答" onclick="keisan();">
                                                 </body>
                                                <script>
 document.getElementById('button').onclick = () => {
@@ -13,9 +13,9 @@ document.getElementById('button').onclick = () => {
     alert('コピーできました');
   });
 };
-                           funciton answer1(){
+                           funciton keisan(){
                            var playermath = document.getElementById('text1').value.;
-                           var answer =  1+23√25/2345-7;
+                           var answer =  1+23√25;
                            if(playermath==answer){
                            alert('正解です');
                            }else{
