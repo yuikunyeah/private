@@ -29,6 +29,11 @@ list-style: none;
   background-color: #ffffff;
  display: block;
 }
+.main ul li a:hover{
+  border-left: solid 10px #40803b;
+  background-color: #ffffff;
+ display: block;
+}
 body{
   background-color: #c0c0c0;
 }
@@ -75,6 +80,7 @@ border-bottom: solid 3px #4169e1;/* 線 */
     color: #fff;
     background-color: #ff44ff;
     padding: 14px;
+}
 .cp_iptxt {
 	position: relative;
 	width: 80%;
