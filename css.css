@@ -53,6 +53,7 @@ border-bottom: solid 3px #4169e1;/* 線 */
     width: 100%;
     background-color: #ff00ff;
     box-shadow: 2px 2px 4px #ccc;
+	height: 1;
 }
 .header ul{
     list-style: none;
